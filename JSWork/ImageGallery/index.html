@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JS Exercises</title>
+
+  <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="../index.html">Main <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Item2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Item3</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+  </header>
+  <main role="main">
+    <header>
+      <div class="navbar"></div>
+    </header>
+    <div class="container">
+      <p>
+        Fetch images from a feed, display them and implement some filters on it <br />
+      </p>
+      <button typ="button" class="btn btn-secondary" id="_getImages">Get Images</button>
+      <button typ="button" class="btn btn-secondary" id="_sortUsers">Sort Users by login</button>
+      <button typ="button" class="btn btn-secondary" id="_clearUsers">Clear Users</button>
+      <div id="message" style="display:none" class="alert alert-warning spacing" role="alert"></div>
+      <ul id="userlist" class="list-group spacing"></ul>
+    </div>
+  </main>
+  <footer class="footer spacing">
+    <div class="container">
+      <span class="text-muted"><a href="../index.html">Back to Main</a></span>
+    </div>
+  </footer>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
