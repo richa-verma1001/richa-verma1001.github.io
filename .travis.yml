@@ -4,7 +4,8 @@ node_js:
 # before_install
 # before
 # before_script
-# script
+script
+  - echo "Hello World"
 # after_success
 # after_faliure
 # after_script
