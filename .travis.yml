@@ -1,15 +1,10 @@
 language: node_js
 node_js:
   - '8'
-# before_install
-# before
-# before_script
+
 script
   - echo "Hello World"
-# after_success
-# after_faliure
-# after_script
-# before_deploy
+
 deploy:
   provider: pages
   skip_cleanup: true
@@ -18,5 +13,15 @@ deploy:
   keep_history: true
   on:
     branch: master
+
+
+
+# before_install
+# before
+# before_script
+# after_success
+# after_faliure
+# after_script
+# before_deploy
 # after_deploy
 # Test pull request merge, travis trigger
