@@ -37,7 +37,7 @@ function init() {
   }
 
   function parseUsers(users) {
-    clearnError();
+    clearError();
     users.forEach(function(user){
       createUserNode(user);
     });
@@ -57,7 +57,7 @@ function init() {
 
   }
 
-  function clearnError() {
+  function clearError() {
     let messageNode = document.getElementById('message');
     messageNode.style.cssText = "display:none";
   }

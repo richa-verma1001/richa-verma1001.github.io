@@ -1,9 +1,9 @@
 language: node_js
 node_js:
-  - '8'
+  - '8.0.0'
+script:
+  - echo 'Hello World'
 
-script
-  - echo "Hello World"
 
 #deploy:
 #  strategy: git
@@ -14,8 +14,6 @@ script
 #  keep_history: true
 #  on:
 #    branch: master
-
-
 
 # before_install
 # before
