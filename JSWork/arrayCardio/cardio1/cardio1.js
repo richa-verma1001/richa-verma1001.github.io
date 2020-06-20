@@ -49,16 +49,17 @@ console.log(reverseString('hello'));
 // racecar is a palindrome, richa is not
 let isPalindrome = function(str) {
   str = str.toLowerCase();
-  let strArray = str.split('');
+  //let strArray = str.split('');
+  let strArray = Array.from(str);
   let revStr = strArray.reverse().join('');
   return str === revStr ? true : false;
 }
 
-console.log(isPalindrome('racecar'));
-console.log(isPalindrome('2020'));
-console.log(isPalindrome('515'));
-console.log(isPalindrome('richa'));
-console.log(isPalindrome('Ana'));
+console.log(`racecar: ${isPalindrome('racecar')}`);
+console.log(`2020: ${isPalindrome('2020')}`);
+console.log(`515: ${isPalindrome('515')}`);
+console.log(`richa: ${isPalindrome('richa')}`);
+console.log(`Ana: ${isPalindrome('Ana')}`);
 
 // Challenge 3: Reverse an Integer
 // e.g. reverseInt(125) ==> 521

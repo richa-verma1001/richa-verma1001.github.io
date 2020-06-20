@@ -1,0 +1,1 @@
+Using this folder to show examples of OOP JS implementations in ES6 and maybe ES5. First example, use Humans, Males, Females to show an example of data encapsulation and Inheritance. Review into how Abstraction and Polymorphism is handled in JS and ES6. 
