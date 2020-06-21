@@ -1,4 +1,4 @@
-import {Author} from './Author';
+import {Author} from './Author.js';
 
 class AuthorStore {
   getAuthor(id) {
