@@ -1,7 +1,7 @@
-import {Book} from './js/Book';
-import {Author} from './js/Author';
-import {AuthorStore} from './js/AuthorStore';
-import {BookStore} from './js/BookStore';
+import {Book} from './js/Book.js';
+import {Author} from './js/Author.js';
+import {AuthorStore} from './js/AuthorStore.js';
+import {BookStore} from './js/BookStore.js';
 
 let authorStore = new AuthorStore();
 let bookStore = new BookStore();
