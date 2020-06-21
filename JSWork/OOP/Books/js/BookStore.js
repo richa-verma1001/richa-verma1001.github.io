@@ -1,5 +1,3 @@
-import {Book} from './Book.js';
-
 class BookStore {
   addBook(book) {
     BookStore.books[book.ISBN] = book;
