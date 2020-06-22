@@ -11,18 +11,42 @@
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
         crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles.css">
   <script type="module" src="./arrayFunctionsAdv.js"></script>
   <script type="module" src="./mutatorMethodsArray.js"></script>
-  <script type="module" src="rotateString.js"></script>
+  <script type="module" src="Controller.js"></script>
+  <script type="module" src="UI.js"></script>
+</head>
 </head>
 <body>
   <main role="main">
     <div class="container">
-      <p>
-        Example Vanilla JS implementing ES6 without Node or any fancy compilers <br />
-        Basic.js file from https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php <hr>
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="text-center">JS exercise examples</h3>
+        </div>
+      </div>
+      <div class="row jumbotron">
+        <p>
+          Example Vanilla JS implementing ES6 without Node or any fancy compilers <br />
+          <a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php">Problem List</a>
+        </p>
+      </div>
+      <div id="rotate" class="row">
+        <div class="col-md-6">
+            <div class="row">
+              <input type="text" class="form-control col-md-6">
+              <button type="button" class="btn btn-primary btn-sm">Rotate</button>
+              <button type="button" class="btn btn-primary btn-sm">Stop Rotation</button>
+            </div>
+            <div class="row">
+              <p></p>
+            </div>
+        </div>
+      </div>
+      <div class="row">
         <a href="../index.html">Back to main</a>
-      </p>
+      </div>
     </div>
   </main>
 
