@@ -6,18 +6,6 @@ class Author {
     this.age = age;
     this.books = books || [];
   }
-  getId() {
-    return this.id;
-  }
-  getName() {
-    return this.name;
-  }
-  getAge() {
-    return this.age;
-  }
-  getBooks() {
-    return this.books;
-  }
   getBookTitles(){
     let result = this.books.map((item) => item.title);
     return result;

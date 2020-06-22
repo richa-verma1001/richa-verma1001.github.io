@@ -40,8 +40,8 @@ function init() {
   function createAuthorSelect(author) {
     let option = document.createElement('option');
     let selectItem = document.getElementById('_authorsMenu');
-    option.value = author.getId();
-    option.innerHTML = author.getName();
+    option.value = author.id;
+    option.innerHTML = author.name;
     selectItem.appendChild(option);
   }
 
@@ -74,7 +74,7 @@ function init() {
   }
 
   function getBookForAuthor(author){
-    let books = author.getBooks(); // array of books for author
+    let books = author.books; // array of books for author
     showBooksForAuthor(books);
   }
 
