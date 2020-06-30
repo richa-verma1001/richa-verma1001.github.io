@@ -1,8 +1,8 @@
 |TimeSlot   | Mansi     | Misha     |
 |-----------|-----------|-----------|
-| After Breakfast| How its made | Misha can watch with you if she wants|
+| After Breakfast| How its made - Jelly Beans, Peanut Butter, Bubblegum | Misha can watch with you if she wants|
 | | Type summary of what you learnt | Misha can watch or make puzzle|
-|  | Finish 1 math worksheet | Misha can do puzzle |
+|  | Finish 1 math worksheet - https://www.engageny.org/resource/grade-1-mathematics-module-6-topic-lesson-1 | Misha can do puzzle |
 | Snack Break | Fruits | Fruits |
 |Sister Playtime |  Catch/ Badminton | Catch/Badminton |
 | Lunch | ||
